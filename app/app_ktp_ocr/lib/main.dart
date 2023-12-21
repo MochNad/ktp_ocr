@@ -38,7 +38,7 @@ class MyHomePageState extends State<MyHomePage> {
       return;
     }
 
-    String apiUrl = "https://e215-2a09-bac1-34e0-50-00-19b-a.ngrok-free.app/result";
+    String apiUrl = "http://192.168.68.104:5000/result";
     var uri = Uri.parse(apiUrl);
 
     // Create multipart request
