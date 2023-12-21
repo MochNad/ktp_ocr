@@ -45,7 +45,7 @@ def main(image):
     berlakuHingga = ""
 
     # Extract information based on patterns in OCR result
-    nik_match = re.search(r"NIK — : (\d+)", result)
+    nik_match = re.search(r"NIK — : (.+)", result)
     if nik_match:
         nik = nik_match.group(1)
 
